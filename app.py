@@ -23,15 +23,3 @@ except FileNotFoundError:
     st.error(f"오류: 'htmls' 폴더 안에 'index.html' 파일을 찾을 수 없습니다. 파일 경로를 확인해주세요: {html_file_path}")
 except Exception as e:
     st.error(f"파일을 읽는 중 예상치 못한 오류가 발생했습니다: {e}")
-
-```
-
-### 실행 방법
-
-1.  터미널(명령 프롬프트)을 엽니다.
-2.  `app.py` 파일이 있는 프로젝트 폴더로 이동합니다.
-3.  아래 명령어를 입력하고 실행합니다.
-
-    ```bash
-    streamlit run app.py
-    
